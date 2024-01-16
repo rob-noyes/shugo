@@ -1,0 +1,136 @@
+{{ 'uniforms.css' | asset_url | stylesheet_tag }}
+
+<div id="custom-uniforms">
+    <div class="swiper-container media_container">
+        <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+                <div class="swiper-slide">
+                    <img src="{{block.settings.image | img_url: '1200x'}}"  loading="lazy">
+                </div>
+            {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="container">
+        <h1>{{ section.settings.title }}</h1>
+        <p class="uniforms-description">
+            {{ section.settings.description }}
+        </p>
+        <div class="lists">
+            <ul>
+                <p>Custom Options</p>
+                <li>Team Name and Logo</li>
+                <li>Team Colors</li>
+                <li>Sublimated Graphics and Pinstripes</li>
+                <li>Player Name and Number</li>
+            </ul>
+            <ul>
+                <p>Sizing and MOQs</p>
+                <li>x</li>
+                <li>x</li>
+                <li>x</li>
+                <li>x</li>
+            </ul>
+        </div>
+        <div class='silhouettes-container'>
+            <p>Customizable Silhouettes</p>
+            <div class='silhouettes'>
+                <div class='silhouette-item'>
+                    <img src='https://cdn.shopify.com/s/files/1/0633/8959/7942/files/Asset_1_7763fd2c-cb3d-4d96-bd95-4bc3a25881e3.png?v=1701136784'>
+                    <span>Pants</span>
+                </div>
+                <div class='silhouette-item'>
+                    <img src='https://cdn.shopify.com/s/files/1/0633/8959/7942/files/Asset_2.png?v=1701136784'  loading="lazy">
+                    <span>Full Button</span>
+                </div>
+                <div class='silhouette-item'>
+                    <img src='https://cdn.shopify.com/s/files/1/0633/8959/7942/files/Asset_4.png?v=1701136784'  loading="lazy">
+                    <span>2 Button</span>
+                </div>
+                <div class='silhouette-item'>
+                    <img src='https://cdn.shopify.com/s/files/1/0633/8959/7942/files/Asset_3_7ea48054-9df1-4c61-83ae-1160a4c0702e.png?v=1701136784'  loading="lazy">
+                    <span>Pullover</span>
+                </div>
+            </div>
+        </div>
+        <div class='contact-container'>
+            <button>{{ section.settings.cta_text }}</button>
+            <span>{{ section.settings.cta_subtext }}</span>
+        </div>
+    </div>
+</div>
+
+<script>
+var mySwiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    // Enable swiping
+    allowTouchMove: true,
+});
+
+const contactButton = document.querySelector('.contact-container > button ')
+if (contactButton) {
+    contactButton.addEventListener('click', () => {
+        const contactSection = document.querySelector('.uniform-contact-container');
+        if(contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+}
+</script>
+
+{% schema %}
+    {
+        "name": "Uniforms",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Shugo Custom Uniforms"
+            },
+            {
+                "type": "text",
+                "id": "description",
+                "label": "Description",
+                "default": "Description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim. Aliquam nulla facilisi cras fermentum odio."
+            },
+            {
+                "type": "text",
+                "id": "cta_text",
+                "label": "CTA Text",
+                "default": "Contact Us to Customize"
+            },
+            {
+                "type": "text",
+                "id": "cta_subtext",
+                "label": "Subtext",
+                "default": "or email questions to teams@shug0.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "image",
+                "name": "image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ],
+         "presets": [
+            {
+                "name": "Uniforms"
+            }
+        ]
+    }
+{% endschema %}

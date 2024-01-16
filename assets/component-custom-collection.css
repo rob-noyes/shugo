@@ -1,0 +1,53 @@
+.custom-collection {
+  margin-top: -16px;
+}
+.custom-title-card {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+  min-height: 450px;
+}
+
+.custom-title-card .title {
+  font-weight: 400;
+}
+
+.custom-collection-description {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.custom-collection-description p {
+  max-width: 60%;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-collection slider-component {
+    padding: 0 !important;
+  }
+}
+
+.custom-collection slider-component {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.custom-collection .title {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 749px) {
+  .custom-collection .title {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .custom-collection .title {
+    font-size: 32px;
+  }
+}

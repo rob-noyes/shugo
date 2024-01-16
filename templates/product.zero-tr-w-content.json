@@ -1,0 +1,486 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features & Materials",
+            "icon": "none",
+            "content": "<p>- Uppers feature either durable ballistic nylon or premium leather.<br\/>- Overlays are crafted from supple genuine leather.<br\/>- Multi-position lacing options offer a tuned fit.<br\/>- Molded EVA midsole and insole for dual layer cushioning.<br\/>- TPU heel clip offers support and stability.<br\/>- Translucent rubber outsoles provide superior traction.<br\/>- Includes secondary speckled lace.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "3b745dcd-3568-4c0d-8e97-0438e1ebf6df": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Sizing",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "f3011eab-4026-4802-be06-dbadea256aec": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-link-wrapper\">\n<a href=\"#zero-tr-bottom-sections\"><div class=\"product-link\"><div class=\"pl-text\">FEATURES & MATERIALS<\/div><div class=\"pl-arrow\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Arrow_right_light.png?v=1668384638\" \/><\/div><\/div><\/a><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "description",
+        "variant_picker",
+        "price",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "3b745dcd-3568-4c0d-8e97-0438e1ebf6df",
+        "f3011eab-4026-4802-be06-dbadea256aec"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "16599229152abe1e34": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "69a10cf7-526b-4d73-af0a-e78d889d7efc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-tr-bottom-sections\">\n<h2 class=\"prod-section-header\">ELEVATED DESIGN ENHANCES YOUR EVERY MOVE<\/h2>",
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "e5db9024-0475-4a75-b109-b144d6060308": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-0",
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-1",
+        "template--16685389775094__e5db9024-0475-4a75-b109-b144d6060308-166778108469a0931a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_Page_ZeroTR_Block1-1920.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "e77b3b96-83aa-4aae-8d05-abfbc1668029": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LUXURY WITH PURPOSE<br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each pair features either made-to-endure ballistic nylon or premium leather uppers, complimented by genuine leather overlays. <br\/><\/p>"
+          }
+        },
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-0",
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-1",
+        "template--16685389775094__e77b3b96-83aa-4aae-8d05-abfbc1668029-16677810857ca8200b-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "86c38348-d870-4f1e-8c10-5fad80dc89e3": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-0",
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-1",
+        "template--16685389775094__86c38348-d870-4f1e-8c10-5fad80dc89e3-166778108469a0931a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_Page_ZeroTR_Block2-1920.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "115a730b-a8db-4cd4-9ea4-b831a50b248c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SUPREME TREAD & TRACTION<br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Translucent rubber outsoles provide superior slip resistance, while TPU heel clips offer unmatched stability. Molded EVA midsoles and insoles support you with dual-layer cushioning. <br\/><\/p>"
+          }
+        },
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-0",
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-1",
+        "template--16685389775094__115a730b-a8db-4cd4-9ea4-b831a50b248c-16677810857ca8200b-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "41aa56fa-c313-45db-8a77-2ff4f7b6dd1d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-0",
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-1",
+        "template--16685389775094__41aa56fa-c313-45db-8a77-2ff4f7b6dd1d-166778108469a0931a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_Page_ZeroTR_Block3-1920.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "69303cf9-9149-492f-a51a-55a279b20b2b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COVETED DETAILS & CONSTRUCTION<br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embroidered logos are constructed from custom-dyed threads, and each pair is accompanied by a secondary speckled lace. Multi-position lacing options offer a tuned, customized fit.<br\/><\/p>"
+          }
+        },
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-0",
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-1",
+        "template--16685389775094__69303cf9-9149-492f-a51a-55a279b20b2b-16677810857ca8200b-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "RECOMMENDED  PRODUCTS",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16599229152abe1e34",
+    "69a10cf7-526b-4d73-af0a-e78d889d7efc",
+    "e5db9024-0475-4a75-b109-b144d6060308",
+    "e77b3b96-83aa-4aae-8d05-abfbc1668029",
+    "86c38348-d870-4f1e-8c10-5fad80dc89e3",
+    "115a730b-a8db-4cd4-9ea4-b831a50b248c",
+    "41aa56fa-c313-45db-8a77-2ff4f7b6dd1d",
+    "69303cf9-9149-492f-a51a-55a279b20b2b",
+    "product-recommendations"
+  ]
+}

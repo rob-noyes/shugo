@@ -1,0 +1,440 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "20acb3f4-89d7-46a6-b12e-4b812f0df117": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390168310__20acb3f4-89d7-46a6-b12e-4b812f0df117-1671156719937aa41c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>SHUGO ORIGINS <\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "9a2ee5fb-85be-48b1-b6bb-f73e2f428492": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>LOOKBOOK 001<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__20acb3f4-89d7-46a6-b12e-4b812f0df117-1671156719937aa41c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each piece in the ORIGINS collection is a visual embodiment of founder Marcus Stroman’s inimitable perspective, manifested through purposeful silhouettes and enduring construction that serves the mind and body simultaneously. <br\/><br\/>Locational design cues are woven into every detail and colorway across the collection, symbolizing prominent moments of Marcus’ journey that inspired the formation of ORIGINS.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__20acb3f4-89d7-46a6-b12e-4b812f0df117-1671156719937aa41c-0",
+        "9a2ee5fb-85be-48b1-b6bb-f73e2f428492",
+        "template--16685390168310__20acb3f4-89d7-46a6-b12e-4b812f0df117-1671156719937aa41c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "bc0cf720-b0df-43ed-866a-8b1d790db03c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-0",
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-1",
+        "template--16685390168310__bc0cf720-b0df-43ed-866a-8b1d790db03c-16677817038b3496c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_1_17.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f2675b97-a8da-4791-9830-c1b7ad6a2448": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390168310__f2675b97-a8da-4791-9830-c1b7ad6a2448-1671156719937aa41c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>THE PERFECT FIT<\/strong><br\/><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__f2675b97-a8da-4791-9830-c1b7ad6a2448-1671156719937aa41c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each cut-and-sew tee is designed to balance structure and draping, while subtle collection details push the ORIGINS vision forward.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__f2675b97-a8da-4791-9830-c1b7ad6a2448-1671156719937aa41c-0",
+        "template--16685390168310__f2675b97-a8da-4791-9830-c1b7ad6a2448-1671156719937aa41c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "43816497-1b8b-41f3-b7eb-36b1f4b47461": {
+      "type": "lookbook-2",
+      "blocks": {
+        "template--16685390168310__43816497-1b8b-41f3-b7eb-36b1f4b47461-166778170386bd8d80-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_2_24A.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__43816497-1b8b-41f3-b7eb-36b1f4b47461-166778170386bd8d80-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_3_47B.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__43816497-1b8b-41f3-b7eb-36b1f4b47461-166778170386bd8d80-0",
+        "template--16685390168310__43816497-1b8b-41f3-b7eb-36b1f4b47461-166778170386bd8d80-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5": {
+      "type": "lookbook-3",
+      "blocks": {
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_4_0.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_5_12_edited.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_6_61.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-0",
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-1",
+        "template--16685390168310__8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5-166778170333a74f96-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1a17e042-e428-4f3d-8e76-649d2be4cc9c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390168310__1a17e042-e428-4f3d-8e76-649d2be4cc9c-1671156719937aa41c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>ICONIC IMPACT<\/strong><br\/><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__1a17e042-e428-4f3d-8e76-649d2be4cc9c-1671156719937aa41c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Familiar silhouettes are tuned with modern proportions. The reversible Coaches Jacket symbolizes the shedding of layers and escapism, with a Gila-monster inspired motif. The ZERO Hoodie is elevated with an oversized structured hood, and an exclusive woven label. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__1a17e042-e428-4f3d-8e76-649d2be4cc9c-1671156719937aa41c-0",
+        "template--16685390168310__1a17e042-e428-4f3d-8e76-649d2be4cc9c-1671156719937aa41c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "09ee7830-3fa6-4899-9606-7d720c5b5354": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_7_69.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "a392ac6a-7e55-4b60-91e0-9ae98114b91f": {
+      "type": "lookbook-2",
+      "blocks": {
+        "template--16685390168310__a392ac6a-7e55-4b60-91e0-9ae98114b91f-16711567188e3cfd6c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_8_42_edited.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__a392ac6a-7e55-4b60-91e0-9ae98114b91f-16711567188e3cfd6c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_9_15.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__a392ac6a-7e55-4b60-91e0-9ae98114b91f-16711567188e3cfd6c-0",
+        "template--16685390168310__a392ac6a-7e55-4b60-91e0-9ae98114b91f-16711567188e3cfd6c-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "color_scheme": "background-2",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "00bfc491-9f2b-4ddf-be90-5d17fefac0fe": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390168310__00bfc491-9f2b-4ddf-be90-5d17fefac0fe-1671156719937aa41c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>PURPOSEFUL & PERSONAL<\/strong><br\/><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__00bfc491-9f2b-4ddf-be90-5d17fefac0fe-1671156719937aa41c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SHUGO ZERO Cleats and ZERO TR are crafted in signature colorways, inspired by Stroman’s travels, career milestones, and cherished moments.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__00bfc491-9f2b-4ddf-be90-5d17fefac0fe-1671156719937aa41c-0",
+        "template--16685390168310__00bfc491-9f2b-4ddf-be90-5d17fefac0fe-1671156719937aa41c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1cc92a19-5f21-40ac-b9fc-cab72cb66954": {
+      "type": "lookbook-2",
+      "blocks": {
+        "template--16685390168310__1cc92a19-5f21-40ac-b9fc-cab72cb66954-16711567188e3cfd6c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_10_20.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__1cc92a19-5f21-40ac-b9fc-cab72cb66954-16711567188e3cfd6c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_11_74.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__1cc92a19-5f21-40ac-b9fc-cab72cb66954-16711567188e3cfd6c-0",
+        "template--16685390168310__1cc92a19-5f21-40ac-b9fc-cab72cb66954-16711567188e3cfd6c-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "color_scheme": "background-2",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "150ab3b4-6d33-4ce6-a27f-de4eed284bc2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_12_67.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390168310__cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02-1671156719937aa41c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>REDEFINED BASICS<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390168310__cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02-1671156719937aa41c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rounding out the collection are effortless shorts and joggers, carefully shaped and tailored to create a streamlined silhouette.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02-1671156719937aa41c-0",
+        "template--16685390168310__cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02-1671156719937aa41c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "d4ca48c9-7d2f-4add-adbc-6610fe8255fd": {
+      "type": "lookbook-3",
+      "blocks": {
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_13_12_cc91ae0d-5d3a-4d96-8d21-8515579478e8.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_14_88.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shugo_FW22_Lookbook_15_35.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-0",
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-1",
+        "template--16685390168310__d4ca48c9-7d2f-4add-adbc-6610fe8255fd-16711567186d9bcad6-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "color_scheme": "background-2",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "20acb3f4-89d7-46a6-b12e-4b812f0df117",
+    "bc0cf720-b0df-43ed-866a-8b1d790db03c",
+    "f2675b97-a8da-4791-9830-c1b7ad6a2448",
+    "43816497-1b8b-41f3-b7eb-36b1f4b47461",
+    "8dfebe45-c3d0-4ed7-92e3-223f69e5ffc5",
+    "1a17e042-e428-4f3d-8e76-649d2be4cc9c",
+    "09ee7830-3fa6-4899-9606-7d720c5b5354",
+    "a392ac6a-7e55-4b60-91e0-9ae98114b91f",
+    "00bfc491-9f2b-4ddf-be90-5d17fefac0fe",
+    "1cc92a19-5f21-40ac-b9fc-cab72cb66954",
+    "150ab3b4-6d33-4ce6-a27f-de4eed284bc2",
+    "cd4ff201-d8ea-4aa8-b6b3-4442b6f92b02",
+    "d4ca48c9-7d2f-4add-adbc-6610fe8255fd"
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1661132924541dac60": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1661132924c25e63eb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>LUXURY CRAFTED FOR THE MIND AND BODY <\/strong><\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "1661132924c25e63eb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beautifully crafted. Balanced innovation. A new area of luxury has arrived. <\/p><p>SHUGO emerges as a premium fashion collective with heritage rooted in athleticism, innovation, and personal growth. Every piece is designed to be your gentle reminder to proclaim what makes you, <em>you<\/em>–while nourishing and empowering every aspect of your life. <\/p><p>SHUGO aims to reframe what luxury can do, by serving as a rebellious beacon to believe in every ounce of You. Your grind. Your truth<\/p>"
+          }
+        },
+        "1661132924c25e63eb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1661132924c25e63eb-0",
+        "1661132924c25e63eb-1",
+        "1661132924c25e63eb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "1661132973390c44ae": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16611329730416f669-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16611329730416f669-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16611329730416f669-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16611329730416f669-0",
+        "16611329730416f669-1",
+        "16611329730416f669-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1661133000c7ea5679": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1661133000dbaa54c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>FOUNDED BY MARCUS STROMAN<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1661133000dbaa54c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a professional athlete who champions balance and mindfulness, Marcus Stroman forged SHUGO’s path when conventional cleats failed to empower his game, and contributed to his ACL tear in 2015. <\/p><p><\/p><p>The  goal from the beginning was to fill a void in the market and fuse the gap between captivating design, optimal structural integrity, performance-boosting support, and premium quality that’s crafted for longevity.<\/p><p><\/p><p>Marcus has pioneered the game-changing union of luxury, considered design, and sport-optimized performance through SHUGO’s signature ZERO CLEAT. And continues to evolve the meaning and purpose of luxury, through high-end footwear, fashion, and lifestyle pieces, crafted in sumptuous materials—made to endure and inspire. <\/p>"
+          }
+        },
+        "1661133000dbaa54c6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1661133000dbaa54c6-0",
+        "1661133000dbaa54c6-1",
+        "1661133000dbaa54c6-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "1661133024ca9aabb3": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1661133024804393c6-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1661133024804393c6-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1661133024804393c6-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1661133024804393c6-0",
+        "1661133024804393c6-1",
+        "1661133024804393c6-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "166113513974ae97a4": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16611351397021b891-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16611351397021b891-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16611351397021b891-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16611351397021b891-0",
+        "16611351397021b891-1",
+        "16611351397021b891-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "166113310159a344ed": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "166113310126898ddc-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "166113310126898ddc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "166113310126898ddc-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166113310126898ddc-0",
+        "166113310126898ddc-1",
+        "166113310126898ddc-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1663545713d8a0a737": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663545713ab65eaed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LUXURY CRAFTED FOR THE MIND AND BODY",
+            "heading_size": "h0"
+          }
+        },
+        "1663545713ab65eaed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beautifully crafted. Balanced innovation. A new area of luxury has arrived. <\/p><p>SHUGO emerges as a premium fashion collective with heritage rooted in athleticism, innovation, and personal growth. Every piece is designed to be your gentle reminder to proclaim what makes you, <em>you<\/em>—while nourishing and empowering every aspect of your life. <\/p><p>SHUGO aims to reframe what luxury can do, by serving as a rebellious beacon to believe in every ounce of You. Your grind. Your truth.  <\/p><p><\/p><p><\/p><p><strong>FOUNDED BY MARCUS STROMAN<\/strong><\/p><p>As a professional athlete who champions balance and mindfulness, Marcus Stroman forged SHUGO’s path when conventional cleats failed to empower his game, and contributed to his ACL tear in 2015. <\/p><p><\/p><p>The goal from the beginning was to fill a void in the market and fuse the gap between captivating design, optimal structural integrity, performance-boosting support, and premium quality that’s crafted for longevity.<\/p><p>Marcus has pioneered the game-changing union of luxury, considered design, and sport-optimized performance through SHUGO’s signature ZERO CLEAT. And continues to evolve the meaning and purpose of luxury, through high-end footwear, fashion, and lifestyle pieces, crafted in sumptuous materials—made to endure and inspire. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663545713ab65eaed-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663545713ab65eaed-0",
+        "1663545713ab65eaed-1",
+        "1663545713ab65eaed-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6317.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1661132924541dac60",
+    "1661132973390c44ae",
+    "1661133000c7ea5679",
+    "1661133024ca9aabb3",
+    "166113513974ae97a4",
+    "166113310159a344ed",
+    "1663545713d8a0a737"
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "buy_button_text": "Add to Cart",
+            "show_dynamic_checkout": false
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features & Materials",
+            "icon": "none",
+            "content": "<p>- Three-layer neoprene collar provides a secure, comfortable fit.<br\/>- Multi-position lacing options offer a tuned fit.<br\/>- Ballistic nylon upper offers durability and breathability. <br\/>- Overlays are crafted from supple, premium leathers.<br\/>- TPU film overlays provide protection and durability in high-wear zones.<br\/>- Lightweight performance plate designed for balance and stability.<br\/>- Metal spikes provide superior traction and a low profile.<br\/>- Molded EVA midsole and insole offers cushion and minimal stud pressure.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "d8bba923-d310-4538-9e75-01ff47f24080": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Sizing",
+            "icon": "none",
+            "content": "<p><a href=\"\/pages\/faq\" target=\"_blank\" title=\"FAQ\">Size guide<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "29d0c269-4233-4584-9205-2d144601a85d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-link-wrapper\">\n<a href=\"#zero-bottom-sections\"><div class=\"product-link\"><div class=\"pl-text\">FEATURES & MATERIALS<\/div><div class=\"pl-arrow\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Arrow_right_light.png?v=1668384638\" \/><\/div><\/div><\/a><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "description",
+        "variant_picker",
+        "price",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "d8bba923-d310-4538-9e75-01ff47f24080",
+        "29d0c269-4233-4584-9205-2d144601a85d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "16599229152abe1e34": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">ELEVATE YOUR ON-FIELD PRESENCE<\/h2>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "622e12d9-742d-4f62-b604-65ac298b670f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-0",
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-1",
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Kai1CoreTPU_Features_Outsole.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "068e53bd-9aea-4f7c-a122-e133a749a407": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TAILORED FOR TURF<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Kai 1 Core TPU is optimized for artificial surfaces with a balance of lightness and resilience, without compromising SHUGO’s signature premium craftsmanship, and elevated-quality materials.<br\/><\/p>"
+          }
+        },
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-0",
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-1",
+        "template--16685390037238__068e53bd-9aea-4f7c-a122-e133a749a407-16677812552056aedd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-0",
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-1",
+        "template--16685390037238__7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a-1667781255f3ab72b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Kai1CoreTPU_Features_Upper.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "94bd0b65-d026-411c-b3e1-b78624dc382c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FIELD-READY FIT<br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crafted with breathable upper materials, reinforced with synthetic leather at stress points for enhanced stability. A soft-molded collar ensures a locked-in ankle fit, supporting every swift move and dynamic play.<\/p>"
+          }
+        },
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-0",
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-1",
+        "template--16685390037238__94bd0b65-d026-411c-b3e1-b78624dc382c-16677812552056aedd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-0",
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-1",
+        "template--16685390037238__e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd-1667781255f3ab72b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Kai1CoreTPU_Features_Colors.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "87607f7b-1f15-4483-bf2b-c5cd328ab305": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>VERSATILE AND VIBRANT<br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed to complement your team's colors, the Kai 1 Core features thoughtfully selected colorways. Built-in pitcher’s toe on both cleats amplifies support and stability over almost any playing surface.<\/p>"
+          }
+        },
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-0",
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-1",
+        "template--16685390037238__87607f7b-1f15-4483-bf2b-c5cd328ab305-16677812552056aedd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 80
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "RECOMMENDED  PRODUCTS",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16599229152abe1e34",
+    "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8",
+    "622e12d9-742d-4f62-b604-65ac298b670f",
+    "068e53bd-9aea-4f7c-a122-e133a749a407",
+    "7a55e3b6-82f3-4bfb-ae59-ecba74f3ec7a",
+    "94bd0b65-d026-411c-b3e1-b78624dc382c",
+    "e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd",
+    "87607f7b-1f15-4483-bf2b-c5cd328ab305",
+    "product-recommendations"
+  ]
+}

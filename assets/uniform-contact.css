@@ -1,0 +1,40 @@
+.uniform-contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 36px 87px;
+}
+
+.uniform-contact h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.uniform-contact p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.uniform-contact-container form {
+    max-width: 660px;
+    width: 100%;
+}
+
+.uniform-contact-container .contact__fields {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .uniform-contact-container {
+        flex-direction: column;
+        padding: 36px 20px;
+    }
+
+}

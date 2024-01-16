@@ -1,0 +1,52 @@
+{{ 'image-grid.css' | asset_url | stylesheet_tag }}
+
+<div class='image-grid'>
+    {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title }}</h2>
+    {% endif %}
+    <div class="images_container">
+        {% for block in section.blocks %}
+            <div class='image-block'>
+                <img src="{{block.settings.image | img_url: '800x'}}">
+                <p>{{ block.settings.image_text }}</p>
+            </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Image Grid",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "image",
+                "name": "image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_text",
+                        "label": "Image Text"
+                    }
+                ]
+            }
+        ],
+         "presets": [
+            {
+                "name": "Image Grid"
+            }
+        ]
+    }
+{% endschema %}

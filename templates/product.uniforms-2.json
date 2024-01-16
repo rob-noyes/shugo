@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "buy_button_text": "Add to Cart",
+            "show_dynamic_checkout": false
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features & Materials",
+            "icon": "none",
+            "content": "<p>- Three-layer neoprene collar provides a secure, comfortable fit.<br\/>- Multi-position lacing options offer a tuned fit.<br\/>- Ballistic nylon upper offers durability and breathability. <br\/>- Overlays are crafted from supple, premium leathers.<br\/>- TPU film overlays provide protection and durability in high-wear zones.<br\/>- Lightweight performance plate designed for balance and stability.<br\/>- Metal spikes provide superior traction and a low profile.<br\/>- Molded EVA midsole and insole offers cushion and minimal stud pressure.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "d8bba923-d310-4538-9e75-01ff47f24080": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Sizing",
+            "icon": "none",
+            "content": "<p><a href=\"\/pages\/faq\" target=\"_blank\" title=\"FAQ\">Size guide<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "29d0c269-4233-4584-9205-2d144601a85d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-link-wrapper\">\n<a href=\"#zero-bottom-sections\"><div class=\"product-link\"><div class=\"pl-text\">FEATURES & MATERIALS<\/div><div class=\"pl-arrow\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Arrow_right_light.png?v=1668384638\" \/><\/div><\/div><\/a><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "description",
+        "variant_picker",
+        "price",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "d8bba923-d310-4538-9e75-01ff47f24080",
+        "29d0c269-4233-4584-9205-2d144601a85d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "16599229152abe1e34": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">THE CORE OF YOUR PERFORMANCE<\/h2>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "RECOMMENDED  PRODUCTS",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16599229152abe1e34",
+    "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8",
+    "product-recommendations"
+  ]
+}

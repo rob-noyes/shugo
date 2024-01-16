@@ -1,0 +1,129 @@
+#input-s-dabf1ea2-0b4a-4601-b655-1e5b5649dc35 {
+  padding: 12px 24px !important;
+}
+
+#s-54d20536-c78f-4b4f-b03b-1952a12ebc2f {
+  padding: 18px 45px !important;
+  background: #7E7C7C !important;
+  color: #fff !important;
+  font-size: 16px !important
+}
+
+#s-54d20536-c78f-4b4f-b03b-1952a12ebc2f:hover {
+  background: #9CAAA2 !important; 
+}
+
+#s-4b7daa35-4da0-461c-bb42-dbda651104bd img:nth-child(1) {
+  width: 100vw;
+  object-position: bottom right;
+  object-fit: contain !important;
+}
+
+#s-9337a400-fa06-4bff-a0a4-170e6499961d img  {
+  width: unset !important;
+  max-width: 230px;
+}
+
+#shopify-section-template--16482719629558__shogun-home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DEDAD9;
+  background-image: url("https://cdn.shopify.com/s/files/1/0633/8959/7942/files/spike_only_copy.png?v=1648425184");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 30vw;
+  overflow-x: hidden;
+}
+
+.klaviyo-form-TmJHGn button,
+.klaviyo-form-TmJHGn imput {
+  font-family: "itc-avant-garde-gothic-pro", "Helvetica", sans-serif !important;
+}
+
+button.go1490228820 {
+  width: fit-content !important;
+  margin: 20px auto;
+}
+
+.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-container.ql-container.ql-container p {
+  font-size: 18x !important;
+  font-weight: 600 !important;
+  font-family: "itc-avant-garde-gothic-pro", "Helvetica", sans-serif !important;
+}
+
+form.needsclick > div:nth-child(1) > div:nth-child(1) {
+  width:100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+button.needsclick {
+  padding-left: 42px !important;
+  padding-right: 42px !important;
+}
+
+/* Removes header  
+
+.home-page .header-wrapper,
+.home-page .footer{
+  display: none !important;
+}
+*/
+
+
+
+
+@media screen and (max-width: 1440px) {
+  #s-a3596fe7-e38e-4133-8524-9485d22f906b {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #s-a3596fe7-e38e-4133-8524-9485d22f906b {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #shopify-section-template--16482719629558__shogun-home {
+	background-size: 50vw;
+  }
+  .shogun-heading-component h1 {
+    font-size: 24px;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .shogun-heading-component h1 {
+    font-size: 18px;
+  }
+  .klaviyo-form-TmJHGn {
+    padding-top: 90px !important;
+  }
+  form.needsclick > div:nth-child(1) > div:nth-child(1) {
+    flex-direction: column !important;
+  }
+  form.needsclick > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    padding: 0 !important;
+  }
+  form.needsclick > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    margin: 0 !important;
+    padding: 30px 0 !important;
+  }
+  button.needsclick {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  form.needsclick > div:nth-child(1) > div:nth-child(1) {
+    padding-bottom: 30px !important;
+  }
+  .shogun-heading-component h2 {
+    font-size: 18px !important;
+  }
+}

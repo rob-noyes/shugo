@@ -1,0 +1,213 @@
+#custom-uniforms {
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#custom-uniforms .media_container,
+#custom-uniforms .container {
+    width: 50%;
+}
+
+#custom-uniforms .swiper-container {
+    position: relative;
+    max-height: 774px;
+    padding-left: 27px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  top: 0; 
+  left: 0;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -30px;
+}
+
+#custom-uniforms .container {
+    height: 100%;
+    background: #FFF;
+    z-index: 2;
+    padding-left: 50px;
+    padding-right: 58px;
+}
+
+#custom-uniforms .container h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: calc(var(--font-heading-scale) * 4rem);
+}
+
+#custom-uniforms .container .uniforms-description {
+    max-width: 530px;
+}
+
+#custom-uniforms .container p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+#custom-uniforms .container .lists {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#custom-uniforms .container .lists p {
+    margin: 0 ;
+}
+
+#custom-uniforms .container .lists ul {
+    list-style-position: inside;
+}
+
+#custom-uniforms .container .lists ul:first-child {
+    padding-left: 0;
+}
+
+#custom-uniforms .container .lists ul li {
+   padding-left: 8px;
+   font-size: 13px;
+   font-weight: 300;
+   line-height: 22px;
+}
+
+#custom-uniforms .container .silhouettes-container p {
+    margin-top: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.silhouettes-container {
+    padding-top: 19px;
+    border-top: 1px solid #C9c9c8;
+    border-bottom: 1px solid #C9c9c8;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+.silhouettes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.silhouettes .silhouette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.silhouettes span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 0;
+    max-width: 650px;
+}
+
+.contact-container button {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+    border: 2px solid #7E7C7C;
+    background: none;
+}
+
+.swiper-pagination-bullet-active {
+    background: #CFE3D8;
+    border: 1px solid transparent;
+}
+
+@media (min-width: 1200px) {
+    .swiper-slide img {
+        object-fit: contain;
+    }
+}
+
+
+@media (max-width: 900px){
+    #custom-uniforms {
+        flex-direction: column;
+    }
+
+    #custom-uniforms .media_container, #custom-uniforms .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #custom-uniforms .media_container {
+        overflow: hidden;
+    }
+
+    #custom-uniforms .container .lists {
+        flex-direction: column;
+    }
+
+    #custom-uniforms .container .lists ul {
+        padding-left: 0;
+    }
+
+    .swiper-slide {
+        max-height: 350px;
+    }
+
+    .silhouettes-container .silhouettes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    #custom-uniforms .container .silhouettes-container p {
+        text-align: center;
+    }
+
+    .silhouettes .silhouette-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container span {
+        text-align: center;
+    }
+}
