@@ -15,6 +15,12 @@
           "type": "title",
           "settings": {}
         },
+        "okendo_star_rating_i8AykA": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -40,6 +46,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "buy_button_text": "Add to Cart",
             "show_dynamic_checkout": false
           }
         },
@@ -49,16 +56,6 @@
             "heading": "MATERIALS",
             "icon": "none",
             "content": "<p>Outer: 100% Nylon WR , Inner - 94% POLYESTER \/ 6% SPANDEX<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
             "page": ""
           }
         },
@@ -97,22 +94,32 @@
             "content": "<p>Dry clean only.<\/p>",
             "page": ""
           }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RETURNS & EXCHANGES",
+            "icon": "none",
+            "content": "<p>We accept returns and exchanges on all eligible merchandise within 30 days of receipt, as long as the item is new, unworn, and still in its original condition and packaging with all original tags attached.<a href=\"\/pages\/returns-exchanges\" title=\"Returns & Exchanges\"> Click here<\/a> to initiate a return or exchange, and to learn more about the process.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "okendo_star_rating_i8AykA",
         "caption",
         "description",
         "variant_picker",
         "price",
         "buy_buttons",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d8bba923-d310-4538-9e75-01ff47f24080"
+        "d8bba923-d310-4538-9e75-01ff47f24080",
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -170,11 +177,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1705513487086b5884": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_GGzjaC": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_GGzjaC"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "16599229152abe1e34"
+    "16599229152abe1e34",
+    "1705513487086b5884"
   ]
 }

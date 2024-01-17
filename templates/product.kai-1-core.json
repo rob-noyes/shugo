@@ -15,6 +15,12 @@
           "type": "title",
           "settings": {}
         },
+        "okendo_star_rating_WhpFyw": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -40,6 +46,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "buy_button_text": "Add to Cart",
             "show_dynamic_checkout": false
           }
         },
@@ -55,11 +62,10 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "RETURNS & EXCHANGES",
+            "icon": "none",
+            "content": "<p>We accept returns and exchanges on all eligible merchandise within 30 days of receipt, as long as the item is new, unworn, and still in its original condition and packaging with all original tags attached. <a href=\"\/pages\/returns-exchanges\" title=\"Returns & Exchanges\">Click here<\/a> to initiate a return or exchange, and to learn more about the process.<br\/><\/p>",
             "page": ""
           }
         },
@@ -110,6 +116,7 @@
       "block_order": [
         "vendor",
         "title",
+        "okendo_star_rating_WhpFyw",
         "caption",
         "description",
         "variant_picker",
@@ -453,6 +460,24 @@
         "padding_bottom": 80
       }
     },
+    "170551384858f8396f": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_ixRiGt": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_ixRiGt"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -481,6 +506,7 @@
     "94bd0b65-d026-411c-b3e1-b78624dc382c",
     "e9647c5d-8b06-4a3a-abc3-9e50a8e12bcd",
     "87607f7b-1f15-4483-bf2b-c5cd328ab305",
+    "170551384858f8396f",
     "product-recommendations"
   ]
 }
