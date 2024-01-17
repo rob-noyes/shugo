@@ -372,6 +372,18 @@ a.product__text {
   padding: 0 1rem;
 }
 
+.product__accordion > details {
+  padding: 0 8px;
+}
+
+.product__accordion details summary > img {
+  width: 20px;
+}
+
+.product__accordion details[open] summary > img {
+  transform: rotate(180deg);
+}
+
 .product .price .badge {
   margin-bottom: 0.5rem;
 }
