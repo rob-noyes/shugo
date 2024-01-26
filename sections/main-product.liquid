@@ -270,7 +270,7 @@
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h2>
                   </div>
-                 <img src="https://cdn.shopify.com/s/files/1/0633/8959/7942/files/Arrow_right_light.png?v=1668384638" />
+                  {% render 'icon-caret' %}
                 </summary>
                 <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                   {{ block.settings.content }}
@@ -432,6 +432,50 @@
                 </div>
               </div>
             </noscript>
+
+          {% when 'custom-silhouettes' %}
+          <div class='custom-silhouettes-container'>
+            <h4>CUSTOMIZABLE SILHOUETTES</h4>
+            <div class='custom-silhouettes'>
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_one_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_one_text}}</p>
+                </div>
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_two_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_two_text}}</p>
+                </div>
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_three_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_three_text}}</p>
+                </div>
+                {% if block.settings.sil_four_image != blank %}
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_four_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_four_text}}</p>
+                </div>
+                {% endif %}
+                {% if block.settings.sil_five_image != blank %}
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_five_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_five_text}}</p>
+                </div>
+                {% endif %}
+                {% if block.settings.sil_six_image != blank %}
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_six_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_six_text}}</p>
+                </div>
+                {% endif %}
+                {% if block.settings.sil_seven_image != blank %}
+                <div class='silhouette'>
+                  <img src="{{block.settings.sil_seven_image | img_url: '200x'}}">
+                  <p>{{block.settings.sil_seven_text}}</p>
+                </div>
+                {% endif %}
+            </div>
+          </div>
+
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
@@ -740,6 +784,84 @@
         }
       ]
     },
+    {
+      "type": "custom-silhouettes",
+      "name": "Custom Silhouettes",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "sil_one_image",
+          "label": "Silhouette One Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_one_text",
+          "label": "Silhouette One Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_two_image",
+          "label": "Silhouette Two Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_two_text",
+          "label": "Silhouette Two Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_three_image",
+          "label": "Silhouette Three Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_three_text",
+          "label": "Silhouette Three Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_four_image",
+          "label": "Silhouette Four Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_four_text",
+          "label": "Silhouette Four Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_five_image",
+          "label": "Silhouette Five Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_five_text",
+          "label": "Silhouette Five Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_six_image",
+          "label": "Silhouette Six Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_six_text",
+          "label": "Silhouette Six Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "sil_seven_image",
+          "label": "Silhouette Seven Image"
+        },
+        {
+          "type": "text",
+          "id": "sil_seven_text",
+          "label": "Silhouette Seven Text"
+        }
+      ]
+    },
+
     {
       "type": "buy_buttons",
       "name": "t:sections.main-product.blocks.buy_buttons.name",

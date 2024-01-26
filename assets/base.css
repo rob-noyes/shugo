@@ -3185,3 +3185,45 @@ details-disclosure > details {
     width: max-content;
   }
 }
+
+.uniform-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.uniform-form-container  .uniform-form-copy {
+  width: 100%;
+  margin-right: 48px;
+}
+
+.uniform-form-container .uniform-form-form {
+  width: 100%;
+}
+
+.bottom-section-uniform-copy {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.uniform-form-container .uniform-form-copy p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 990px) {
+  .uniform-form-container {
+    flex-direction: column;
+  }
+
+  .uniform-form-container .uniform-form-copy {
+    margin: 0;
+  }
+}

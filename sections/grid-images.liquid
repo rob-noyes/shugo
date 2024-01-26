@@ -1,0 +1,51 @@
+{{ 'section-grid-images.css' | asset_url | stylesheet_tag }}
+<div class="grid-images-container {% if section.settings.image_row == 2%}two-wide{% else if section.settings.image_row == 3 %}three-wide{% else if section.settings.image_row == 4 %}four-wide{% endif %}">
+    {% for block in section.blocks %}
+        <div class="grid-image-block">
+            <div class="image_container">
+                <img loading="lazy" src="{{ block.settings.image_block_image | img_url: '500x' }}">
+            </div>
+            <p>{{  block.settings.image_block_text }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+        "name": "Grid Images",
+        "settings": [
+            {
+                "type": "range",
+                "id": "image_row",
+                "min": 2,
+                "max": 4,
+                "step": 1,
+                "label": "Image Row Amount",
+                "default": 3
+            }
+        ],
+        "blocks": [
+            {
+                "type": "Image",
+                "name": "Image Block",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image_block_image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_block_text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Grid Images"
+            }
+        ]
+    }
+{% endschema %}
