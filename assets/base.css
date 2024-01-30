@@ -3211,11 +3211,12 @@ details-disclosure > details {
   margin: 0 auto;
 }
 
-.uniform-form-container .uniform-form-copy p {
-  font-size: 24px;
-  font-style: normal;
+.uniform-form-container .uniform-form-copy h2 {
   font-weight: 700;
-  line-height: normal;
+}
+
+.uniform-form-container .uniform-form-copy a {
+  color: #000;
 }
 
 @media (max-width: 990px) {

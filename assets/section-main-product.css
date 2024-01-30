@@ -1320,12 +1320,11 @@ a.product__text {
 }
 
 .custom-silhouettes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .custom-silhouettes > .silhouette {
@@ -1379,5 +1378,24 @@ a.product__text {
 @media (max-width: 1300px) {
   .custom-silhouettes > .silhouette {
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .custom-silhouettes {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .custom-silhouettes > .silhouette {
+    margin-right: 10px;
+  }
+
+  
+}
+
+@media (max-width: 600px) {
+  .custom-silhouettes img {
+    max-height: 100px;
   }
 }
