@@ -13,7 +13,8 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
@@ -25,20 +26,51 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "custom_silhouettes_Q87cnf": {
+          "type": "custom-silhouettes",
+          "settings": {
+            "sil_one_image": "shopify:\/\/shop_images\/Pants-Normal.png",
+            "sil_one_text": "Pants",
+            "sil_two_image": "shopify:\/\/shop_images\/Jersey-ButtonUp.png",
+            "sil_two_text": "Full Button",
+            "sil_three_image": "shopify:\/\/shop_images\/Jersey-TwoButton.png",
+            "sil_three_text": "Two Button",
+            "sil_four_image": "shopify:\/\/shop_images\/Jersey-SleevelessButtonUp.png",
+            "sil_four_text": "Sleeveless",
+            "sil_five_image": "shopify:\/\/shop_images\/Jersey-Pullover.png",
+            "sil_five_text": "Pullover",
+            "sil_six_image": "shopify:\/\/shop_images\/Jersey-VNeck.png",
+            "sil_six_text": "VNeck",
+            "sil_seven_image": "shopify:\/\/shop_images\/Pants-Knickers.png",
+            "sil_seven_text": "Knickers"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
+        "custom_liquid_hD83XM": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class='silhouettes-container'>\n            <p>Customizable Silhouettes<\/p>\n            <div class='silhouettes'>\n                <div class='silhouette-item'>\n                    <img src='https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Asset_1_7763fd2c-cb3d-4d96-bd95-4bc3a25881e3.png?v=1701136784'>\n                    <span>Pants<\/span>\n                <\/div>\n                <div class='silhouette-item'>\n                    <img src='https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Asset_2.png?v=1701136784'  loading=\"lazy\">\n                    <span>Full Button<\/span>\n                <\/div>\n                <div class='silhouette-item'>\n                    <img src='https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Asset_4.png?v=1701136784'  loading=\"lazy\">\n                    <span>2 Button<\/span>\n                <\/div>\n                <div class='silhouette-item'>\n                    <img src='https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Asset_3_7ea48054-9df1-4c61-83ae-1160a4c0702e.png?v=1701136784'  loading=\"lazy\">\n                    <span>Pullover<\/span>\n                <\/div>\n            <\/div>\n        <\/div>"
+          }
+        },
         "price": {
           "type": "price",
-          "settings": {}
+          "disabled": true,
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "buy_button_text": "Add to Cart",
             "show_dynamic_checkout": false
@@ -103,8 +135,15 @@
         },
         "29d0c269-4233-4584-9205-2d144601a85d": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"product-link-wrapper\">\n<a href=\"#zero-bottom-sections\"><div class=\"product-link\"><div class=\"pl-text\">FEATURES & MATERIALS<\/div><div class=\"pl-arrow\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/8959\/7942\/files\/Arrow_right_light.png?v=1668384638\" \/><\/div><\/div><\/a><\/div>"
+          }
+        },
+        "custom_liquid_HDhHB7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class='contact-uniform-page'>\n<a href=\"#contact-us\" class='contact-us'>Contact Us to Customize<\/a>\n<span>or email questions to teams@shug0.com<\/span>\n<\/div>"
           }
         }
       },
@@ -113,7 +152,9 @@
         "title",
         "caption",
         "description",
+        "custom_silhouettes_Q87cnf",
         "variant_picker",
+        "custom_liquid_hD83XM",
         "price",
         "buy_buttons",
         "collapsible-row-0",
@@ -122,11 +163,12 @@
         "collapsible-row-3",
         "share",
         "d8bba923-d310-4538-9e75-01ff47f24080",
-        "29d0c269-4233-4584-9205-2d144601a85d"
+        "29d0c269-4233-4584-9205-2d144601a85d",
+        "custom_liquid_HDhHB7"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_size": "large",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
@@ -166,14 +208,67 @@
     "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">ICONIC INNOVATION MEETS PERFORMANCE-TUNED DESIGN<\/h2>\n<\/div>",
+        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">Text<\/h2>\n<\/div>",
         "color_scheme": "background-2",
         "padding_top": 20,
         "padding_bottom": 20
       }
     },
+    "622e12d9-742d-4f62-b604-65ac298b670f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-0",
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-1",
+        "template--16685390037238__622e12d9-742d-4f62-b604-65ac298b670f-1667781255f3ab72b4-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_Page_Cleat_Block1-1920.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "RECOMMENDED  PRODUCTS",
         "heading_size": "h2",
@@ -194,6 +289,7 @@
     "main",
     "16599229152abe1e34",
     "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8",
+    "622e12d9-742d-4f62-b604-65ac298b670f",
     "product-recommendations"
   ]
 }
