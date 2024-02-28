@@ -3227,4 +3227,8 @@ details-disclosure > details {
   .uniform-form-container .uniform-form-copy {
     margin: 0;
   }
+
+  .uniform-form-container .uniform-form-form {
+    margin-top: 50px;
+  }
 }

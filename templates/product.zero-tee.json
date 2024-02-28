@@ -15,7 +15,7 @@
           "type": "title",
           "settings": {}
         },
-        "okendo_star_rating_N47Ex4": {
+        "okendo_star_rating_GTaqJG": {
           "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}"
@@ -59,6 +59,16 @@
             "page": ""
           }
         },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -94,32 +104,23 @@
             "content": "<p>Machine wash cold with similar colors. Do not bleach. Tumble dry on low setting. Iron reverse side on warm setting as needed.<\/p>",
             "page": ""
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "RETURNS & EXCHANGES",
-            "icon": "none",
-            "content": "<p>We accept returns and exchanges on all eligible merchandise within 30 days of receipt, as long as the item is new, unworn, and still in its original condition and packaging with all original tags attached. <a href=\"https:\/\/shug0.com\/pages\/returns-exchanges\" title=\"https:\/\/shug0.com\/pages\/returns-exchanges\">Click here<\/a> to initiate a return or exchange, and to learn more about the process.<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "okendo_star_rating_N47Ex4",
+        "okendo_star_rating_GTaqJG",
         "caption",
         "description",
         "variant_picker",
         "price",
         "buy_buttons",
         "collapsible-row-0",
+        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d8bba923-d310-4538-9e75-01ff47f24080",
-        "collapsible-row-1"
+        "d8bba923-d310-4538-9e75-01ff47f24080"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -130,24 +131,6 @@
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 12
-      }
-    },
-    "1705513893e912746d": {
-      "type": "apps",
-      "blocks": {
-        "okendo_reviews_widget_hYd6Wf": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": "{{product}}",
-            "widget_type": "reviews_widget"
-          }
-        }
-      },
-      "block_order": [
-        "okendo_reviews_widget_hYd6Wf"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "product-recommendations": {
@@ -195,12 +178,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1706813492c48b9b13": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_eBJcdM": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_eBJcdM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "1705513893e912746d",
     "product-recommendations",
-    "16599229152abe1e34"
+    "16599229152abe1e34",
+    "1706813492c48b9b13"
   ]
 }

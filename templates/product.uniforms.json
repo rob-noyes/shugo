@@ -13,21 +13,18 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "Custom Uniforms by SHUGO",
             "text_style": "subtitle"
           }
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "custom_silhouettes_Q87cnf": {
           "type": "custom-silhouettes",
@@ -65,8 +62,7 @@
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -143,7 +139,7 @@
         "custom_liquid_HDhHB7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='contact-uniform-page'>\n<a href=\"#contact-us\" class='contact-us'>Contact Us to Customize<\/a>\n<span>or email questions to teams@shug0.com<\/span>\n<\/div>"
+            "custom_liquid": "<div class='contact-uniform-page'>\n<a href=\"#contact-us\" class='contact-us'>Contact Us to Customize<\/a>\n<span class=\"center\">Have questions before you start customizing? Email us at nic@shug0.com<\/span>\n<\/div>"
           }
         }
       },
@@ -208,8 +204,8 @@
     "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">Text<\/h2>\n<\/div>",
-        "color_scheme": "background-2",
+        "custom_liquid": "<dic class=\"prod-bottom-section-header-wrapper\" id=\"zero-bottom-sections\">\n<h2 class=\"prod-section-header\">LIMITLESS CUSTOMIZATION<\/h2>\n<p class=\"center bottom-section-uniform-copy\">If your team can envision it, we can help you create it. Preview a selection of our premium customization options below, and reach out to learn about our full range of options, tailored packages, and flexible pricing. <\/p>\n<\/div>",
+        "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -283,6 +279,73 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "grid_images_XztNU9": {
+      "type": "grid-images",
+      "blocks": {
+        "image_7JbiJc": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_1TeamName.jpg",
+            "image_block_text": "Team Name"
+          }
+        },
+        "image_6EmtUx": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_2TeamColors.jpg",
+            "image_block_text": "Team Colors"
+          }
+        },
+        "image_jUtMW7": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_3TeamLogo.jpg",
+            "image_block_text": "Team Logo"
+          }
+        },
+        "image_VNDJeB": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_4SublimatedGraphics.jpg",
+            "image_block_text": "Sublimated Graphics"
+          }
+        },
+        "image_qeMb7H": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_5PlayerName.jpg",
+            "image_block_text": "Player Name"
+          }
+        },
+        "image_UUXfXC": {
+          "type": "Image",
+          "settings": {
+            "image_block_image": "shopify:\/\/shop_images\/SHUGO_Uniform_Web_6Etc.jpg",
+            "image_block_text": "Limitless Options"
+          }
+        }
+      },
+      "block_order": [
+        "image_7JbiJc",
+        "image_6EmtUx",
+        "image_jUtMW7",
+        "image_VNDJeB",
+        "image_qeMb7H",
+        "image_UUXfXC"
+      ],
+      "settings": {
+        "image_row": 3
+      }
+    },
+    "custom_liquid_mjydHh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width uniform-form-container\" id=\"contact-us\">\n<div class=\"uniform-form-copy\">\n<h2>Start customizing your team’s signature look.<\/h2>\n<span>Need support? Reach us at   <a href=\"mailto:nic@shug0.com\">nic@shug0.com<\/a><\/span>\n<\/div>\n<div class=\"uniform-form-form\">\n<div class=\"globo-formbuilder\" data-id=\"Mjg1MTE=\"><\/div>\n<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -290,6 +353,8 @@
     "16599229152abe1e34",
     "ed7d4330-58ba-4ee3-bdeb-948cfdf5b9f8",
     "622e12d9-742d-4f62-b604-65ac298b670f",
-    "product-recommendations"
+    "product-recommendations",
+    "grid_images_XztNU9",
+    "custom_liquid_mjydHh"
   ]
 }

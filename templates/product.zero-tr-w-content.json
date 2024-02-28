@@ -15,7 +15,7 @@
           "type": "title",
           "settings": {}
         },
-        "okendo_star_rating_U6Q4jk": {
+        "okendo_star_rating_x8LXCD": {
           "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}"
@@ -62,10 +62,11 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "heading": "RETURNS & EXCHANGES",
-            "icon": "none",
-            "content": "<p>We accept returns and exchanges on all eligible merchandise within 30 days of receipt, as long as the item is new, unworn, and still in its original condition and packaging with all original tags attached. <a href=\"https:\/\/shug0.com\/pages\/returns-exchanges\" title=\"https:\/\/shug0.com\/pages\/returns-exchanges\">Click here<\/a> to initiate a return or exchange, and to learn more about the process.<\/p><p>Tip: Always try on your SHUGO footwear indoors to avoid marks, scuffs, or wear that could cause the item to be ineligible for returns or exchanges.<\/p>",
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
             "page": ""
           }
         },
@@ -116,7 +117,7 @@
       "block_order": [
         "vendor",
         "title",
-        "okendo_star_rating_U6Q4jk",
+        "okendo_star_rating_x8LXCD",
         "caption",
         "description",
         "variant_picker",
@@ -460,10 +461,10 @@
         "padding_bottom": 80
       }
     },
-    "1705513909a0301eb3": {
+    "170681351092895e37": {
       "type": "apps",
       "blocks": {
-        "okendo_reviews_widget_BF8KRN": {
+        "okendo_reviews_widget_FqKHLf": {
           "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}",
@@ -472,7 +473,7 @@
         }
       },
       "block_order": [
-        "okendo_reviews_widget_BF8KRN"
+        "okendo_reviews_widget_FqKHLf"
       ],
       "settings": {
         "include_margins": true
@@ -506,7 +507,7 @@
     "115a730b-a8db-4cd4-9ea4-b831a50b248c",
     "41aa56fa-c313-45db-8a77-2ff4f7b6dd1d",
     "69303cf9-9149-492f-a51a-55a279b20b2b",
-    "1705513909a0301eb3",
+    "170681351092895e37",
     "product-recommendations"
   ]
 }
